@@ -1,0 +1,99 @@
+c.card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card-left {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.card-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.label {
+  margin-bottom: 5px;
+}
+
+
+
+.circle {
+  width: 50px;
+  height: 50px;
+}
+
+.circular-chart {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+}
+
+.circle-bg {
+  fill: none;
+  stroke: #eee;
+  stroke-width: 3.8;
+}
+
+.circle-progress {
+  fill: none;
+  stroke: #007bff;
+  stroke-width: 3.8;
+  stroke-linecap: round;
+  transition: stroke-dasharray 0.3s ease;
+}
+
+.percentage-text {
+  fill: #333;
+  font-size: 8px;
+  text-anchor: middle;
+  dominant-baseline: middle;
+  transform: rotate(90deg);
+}
+.top-bar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.profile-btn {
+  padding: 5px 10px;
+  background-color: #17a2b8;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.profile-box {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 6px;
+  text-align: left;
+  width: 200px;
+  margin-top: 10px;
+}
+
+.logout-btn {
+  margin-top: 8px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
