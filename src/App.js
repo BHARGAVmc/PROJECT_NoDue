@@ -5,6 +5,7 @@ import Home from "../src/Home/Home";
 import Flogin from "../src/Login/Flogin";
 import Slogin from "../src/Login/Slogin";
 import Signup from '../src/Login/Signup';
+import FacultyDash from './Faculty/FacultyDash';
 function App() {
   return (
     // <div className="App">
@@ -30,8 +31,7 @@ function App() {
         <Route path="/Slogin" element={<Slogin/>}/>
         <Route path="/Flogin" element={<Flogin/>}/>
         <Route path="/Signup" element={<Signup/>}/>
-    
-       
+        <Route path="/FacultyDash" element={<FacultyDash />} />
       </Routes>
     </BrowserRouter>
   );
